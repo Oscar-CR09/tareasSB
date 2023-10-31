@@ -12,8 +12,8 @@
          </font></Label>
       <TableView fx:id="tareaTabla" layoutX="176.0" layoutY="67.0" prefHeight="200.0" prefWidth="385.0">
         <columns>
-          <TableColumn fx:id="idTareaColumna" prefWidth="75.0" text="ID" />
-          <TableColumn fx:id="tareaColumna" prefWidth="75.0" text="Tarea" />
+            <TableColumn fx:id="idTareaColumna" prefWidth="75.0" text="ID" />
+            <TableColumn fx:id="nombreTareaColumna" prefWidth="75.0" text="Tarea" />
             <TableColumn fx:id="responsableColumna" prefWidth="75.0" text="Responsable" />
             <TableColumn fx:id="estatusColumna" prefWidth="75.0" text="Estatus" />
         </columns>
