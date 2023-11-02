@@ -39,7 +39,7 @@
       <AnchorPane layoutX="34.0" layoutY="330.0" prefHeight="98.0" prefWidth="606.0">
          <children>
             <Button fx:id="agregarBoton" layoutX="16.0" layoutY="37.0" mnemonicParsing="false" onAction="#agregarTarea" prefHeight="25.0" prefWidth="101.0" style="-fx-background-color: #1d3557;" text="Agregar" textFill="#f1faee" />
-            <Button fx:id="modificarBoton" layoutX="158.0" layoutY="37.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="101.0" style="-fx-background-color: #1d3557;" text="Modificar" textFill="#f1faee" />
+            <Button fx:id="modificarBoton" layoutX="158.0" layoutY="37.0" mnemonicParsing="false" onAction="#modificarTarea" prefHeight="25.0" prefWidth="101.0" style="-fx-background-color: #1d3557;" text="Modificar" textFill="#f1faee" />
             <Button fx:id="eliminarBoton" layoutX="296.0" layoutY="37.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="101.0" style="-fx-background-color: #e63946;" text="Eliminar" textFill="#1d3557" />
             <Button fx:id="limpiarBoton" layoutX="428.0" layoutY="37.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="155.0" style="-fx-background-color: #ffd60a;" text="Limpiar Formulario" />
          </children>
